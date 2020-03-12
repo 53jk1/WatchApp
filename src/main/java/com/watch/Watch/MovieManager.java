@@ -24,6 +24,10 @@ public class MovieManager {
         movieList.add(new Movie("Joker", 2019, 8.34));
     }
 
+    public boolean addMovie(Movie movie){
+        return movieList.add(movie);
+    }
+
     public List<Movie> getMovieList() {
         return movieList;
     }
